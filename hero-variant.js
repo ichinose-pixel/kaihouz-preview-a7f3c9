@@ -1,6 +1,6 @@
 (() => {
   const manga = new URLSearchParams(location.search).get('fv') === 'manga';
-  const source = manga ? 'submission/kv/01-manga.jpg' : 'submission/kv/01.jpg';
+  const source = manga ? 'assets/v18/01-manga.jpg' : 'assets/v18/01.jpg';
   const hero = document.querySelector('.hero');
   const first = document.querySelector('.gallery a');
   hero.src = source;
